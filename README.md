@@ -14,7 +14,7 @@ Components Parts
 Challenges
 
 Timeline
-Week 1: introducing proposal & starting the prototype
-Week 2: finishing pixel art & merging it with the code
-Week 3: finish finalizing bugs in the pixel art & the code
-Week 4: presenting!
+- Week 1: introducing proposal & starting the prototype
+- Week 2: finishing pixel art & merging it with the code
+- Week 3: finish finalizing bugs in the pixel art & the code
+- Week 4: presenting!
