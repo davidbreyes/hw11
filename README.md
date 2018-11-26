@@ -12,9 +12,15 @@ Components Parts
 - I am getting the sound effects of various button/click sound effects (mainly from YouTube)
 
 Challenges
+- creating all the pixel art
+- exporting the pixel art properly on server
+- constant troubleshooting with how each feature reacts with mouse being pressed on them
+- overlaying images if player clicks on different features of the same section
+- downloading and save sprite after session
+  - will user have to just screenshot their sprite?
 
 Timeline
 - Week 1: introducing proposal & starting the prototype
 - Week 2: finishing pixel art & merging it with the code
 - Week 3: finish finalizing bugs in the pixel art & the code
-- Week 4: presenting!
+- Week 4: presenting! (pray for me)
