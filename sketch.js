@@ -194,6 +194,76 @@ function keyPressed(){
       snd2.play();
       image(img6,0,0);
     }
+//eyes
+    if (key == 'a') {
+    snd3.play();
+    image(img7,0,0) ;
+    }
+    if (key == 's') {
+      snd3.play();
+      image(img11,0,0);
+    }
+    if (key == 'd') {
+      snd3.play();
+      image(img13,0,0);
+    }
+//shirt
+  if (key == 'z') {
+    snd3.play();
+    image(img16,0,0);
+  }
+  if (key == 'x') {
+    snd3.play();
+    image(img20,0,0);
+  }
+  if (key == 'c') {
+    snd3.play();
+    image(img24,0,0);
+  }
+//pants
+  if (key == 'i') {
+    snd3.play();
+    image(img26,0,0);
+  }
+  if (key == 'o') {
+    snd3.play();
+    image(img29,0,0);
+  }
+  if (key == 'p') {
+    snd3.play();
+    image(img31,0,0);
+  }
+//shoes
+  if (key == 'j') {
+    snd3.play();
+    image(img34,0,0);
+  }
+  if (key == 'k') {
+    snd3.play();
+    image(img35,0,0);
+  }
+  if (key == 'l') {
+    snd3.play();
+    image(img37,0,0);
+  }
+//hair
+  if (key == 'b') {
+    snd3.play();
+    image(img40,0,0);
+  }
+  if (key == 'n') {
+    snd3.play();
+    image(img44,0,0);
+  }
+  if (key == 'm') {
+    snd3.play();
+    image(img46,0,0);
+  }
+//clear
+  if (key == '1') {
+    snd6.play();
+    image(img49,0,0);
+  }
   }
 // noFill();
 // noStroke();
