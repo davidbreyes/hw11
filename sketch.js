@@ -57,12 +57,24 @@ let snd6;
 let snd7;
 let snd8;
 
-let keytab = [];
-let eyetab = [];
-let shirttab = [];
-let pantstab = [];
-let shoestab = [];
-let hairtab = [];
+var main;
+var tab;
+var keystab;
+var eyetab;
+var shirttab;
+var pantstab;
+var shoestab;
+var hairtab;
+
+// var main = "keystab";
+//
+// var tab = function(x, y, w, h, pageSwitch) {
+//   if(mouseX > x && mouseX < x + w && mouseY > y && mouseY < y + h) {
+//     if(mouseisPressed){
+//       main = mainSwitched
+//     };
+//   }
+//     rect(x,y,w,h);
 
 function preload() {
 snd = loadSound('cpfpsfx1.mp4');
@@ -146,18 +158,51 @@ function draw() {
 background(770,1080);
 fill(255);
 image(img,0,0);
+if (mouseisPressed){
+  image(img).push();
+}
 
-//function mousePressed() {
-
-//}
+noFill();
+noStroke();
 //keytab rects
-//noFill;
-//noStroke;
-//rect(332,43,82,40);
-//rect(416,43,82,40);
-//rect(500,43,82,40);
-//rect(585,43,82,40);
-//rect(670,43,82,40);
+rect(332,43,82,40);
+rect(416,43,82,40);
+rect(500,43,82,40);
+rect(585,43,82,40);
+rect(670,43,82,40);
+
+}
+
+function keyPressed(){
+    if (key =='q') {
+      snd2.play();
+      image(img2,0,0);
+    }
+    if (key =='w') {
+      snd2.play();
+      image(img3,0,0);
+    }
+    if (key =='e') {
+      snd2.play();
+      image(img4,0,0);
+    }
+    if (key == 'r') {
+      snd2.play();
+      image(img5,0,0);
+    }
+    if (key == 't') {
+      snd2.play();
+      image(img6,0,0);
+    }
+  }
+// noFill();
+// noStroke();
+//keytab rects
+// rect(332,43,82,40);
+// rect(416,43,82,40);
+// rect(500,43,82,40);
+// rect(585,43,82,40);
+// rect(670,43,82,40);
 
 //clear rect
 //noFill;
@@ -234,4 +279,34 @@ image(img,0,0);
 // rect(682,99,86,73);
 // rect(682,188,86,73);
 // rect(682,275,86,73);
-}
+//}
+
+// switch(main){
+//   case "keystab":
+//   tab(332,43,82,40, "eyestab");
+//     if(mouseisPressed){
+//       image(img2).push();
+//     }
+//   tab(416,43,82,40, "shirttab");
+//   tab(500,43,82,40, "pantstab");
+//   tab(585,43,82,40, "shoestab");
+//   tab(670,43,82,40, "hairtab");
+//   break;
+
+  //case "shirttab":
+  // image(img3,0,0);
+  // break;
+  //
+  // case "pantstab":
+  // image(img4,0,0);
+  // break;
+  //
+  // case "shoestab":
+  // image(img5,0,0);
+  // break;
+  //
+  // case "hairtab":
+  // image(img6,0,0);
+  // break;
+// }
+// }
